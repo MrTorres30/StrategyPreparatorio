@@ -8,7 +8,6 @@ namespace StrategyPreparatorioPrac
             {
                 return contexto.sueldo;
             }
-            
         }
     }
 }

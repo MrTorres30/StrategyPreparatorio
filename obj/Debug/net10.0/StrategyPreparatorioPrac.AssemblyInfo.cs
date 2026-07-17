@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StrategyPreparatorioPrac")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb3580056da9b694bf48b9cd264f1f1778d36a1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f360180ed490567189894f0e1304b7266e667eab")]
 [assembly: System.Reflection.AssemblyProductAttribute("StrategyPreparatorioPrac")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StrategyPreparatorioPrac")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
