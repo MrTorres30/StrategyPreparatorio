@@ -2,12 +2,11 @@ namespace StrategyPreparatorioPrac
 {
     internal class ContractEmployer : IEmpleado
     {
-        public double CalcularImpuesto(Contexto contexto)
+        public decimal CalcularImpuesto (Contexto contexto)
         {
-            double salarioBruto = contexto.impuesto;
-            if (salarioBruto)
+            decimal salarioBruto = contexto.impuesto;
             {
-
+                return contexto.sueldo;
             }
         }
     }

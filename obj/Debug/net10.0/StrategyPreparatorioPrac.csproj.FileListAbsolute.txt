@@ -1,0 +1,15 @@
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\bin\Debug\net10.0\StrategyPreparatorioPrac.exe
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\bin\Debug\net10.0\StrategyPreparatorioPrac.deps.json
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\bin\Debug\net10.0\StrategyPreparatorioPrac.runtimeconfig.json
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\bin\Debug\net10.0\StrategyPreparatorioPrac.dll
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\bin\Debug\net10.0\StrategyPreparatorioPrac.pdb
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\obj\Debug\net10.0\StrategyPreparatorioPrac.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\obj\Debug\net10.0\StrategyPreparatorioPrac.AssemblyInfoInputs.cache
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\obj\Debug\net10.0\StrategyPreparatorioPrac.AssemblyInfo.cs
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\obj\Debug\net10.0\StrategyPreparatorioPrac.csproj.CoreCompileInputs.cache
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\obj\Debug\net10.0\StrategyPreparatorioPrac.sourcelink.json
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\obj\Debug\net10.0\StrategyPreparatorioPrac.dll
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\obj\Debug\net10.0\refint\StrategyPreparatorioPrac.dll
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\obj\Debug\net10.0\StrategyPreparatorioPrac.pdb
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\obj\Debug\net10.0\StrategyPreparatorioPrac.genruntimeconfig.cache
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\obj\Debug\net10.0\ref\StrategyPreparatorioPrac.dll

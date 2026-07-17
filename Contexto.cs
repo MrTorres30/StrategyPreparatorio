@@ -4,7 +4,7 @@ namespace StrategyPreparatorioPrac
     {
         public string nombre {get; set;}
         public decimal impuesto {get; set;}
-        public decimal sueldo {get; set;}
+        public decimal sueldo {get; set;}   
     
         public Contexto(string nombre, decimal impuesto, decimal sueldo)
         {
