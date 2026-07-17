@@ -1,0 +1,7 @@
+namespace StrategyPreparatorioPrac
+{
+    interface IEmpleado
+    {
+        
+    }
+}
