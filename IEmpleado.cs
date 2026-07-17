@@ -1,7 +1,7 @@
 namespace StrategyPreparatorioPrac
 {
-    interface IEmpleado
+    interface IEmpleado 
     {
-        
+        double CalcularImpuesto(Contexto contexto);
     }
 }
