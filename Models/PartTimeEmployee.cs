@@ -1,6 +1,6 @@
 namespace StrategyPreparatorioPrac
 {
-    internal class PartTimeEmployee
+    internal class PartTimeEmployee : IEmpleado
     {
     public decimal CalcularImpuesto (Contexto contexto)
         {

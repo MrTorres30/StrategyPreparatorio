@@ -1,4 +1,3 @@
-
 namespace StrategyPreparatorioPrac
 {
     internal class Contexto

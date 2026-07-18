@@ -1,5 +1,6 @@
 using System.Linq.Expressions;
 using System.Text.Json;
+
 namespace StrategyPreparatorioPrac
 {
     internal class FormatoJSON
