@@ -4,10 +4,7 @@ namespace StrategyPreparatorioPrac
     {
         public decimal CalcularImpuesto (Contexto contexto)
         {
-            decimal salarioBruto = contexto.impuesto;
-            {
-                return contexto.sueldo;
-            }
+            return contexto.Sueldo * 0.25m;
         }
     }
 }

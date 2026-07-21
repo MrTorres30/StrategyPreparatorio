@@ -3,9 +3,9 @@ using System.Text.Json;
 
 namespace StrategyPreparatorioPrac
 {
-    internal class FormatoJSON
+    internal class FormatoJSON : IExportador
     {
-        public void Guardar(List<Contexto> lista)
+        public void Exportar(List<Contexto> lista, string nombreArchivo)
         {
             var formato = new JsonSerializerOptions { WriteIndented = true };
             string JsonString = JsonSerializer.Serialize(lista, formato);

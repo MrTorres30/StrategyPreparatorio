@@ -2,15 +2,18 @@ namespace StrategyPreparatorioPrac
 {
     internal class Contexto
     {
-        public string nombre {get; set;}
-        public decimal impuesto {get; set;}
-        public decimal sueldo {get; set;}   
+        public string Nombre {get; set;}
+        public decimal Impuesto {get; set;}
+        public decimal Sueldo {get; set;}   
+
+        public TipoEmpleado EmployerType {get; set;} 
     
-        public Contexto(string nombre, decimal impuesto, decimal sueldo)
+        public Contexto(string nombre, decimal sueldo, TipoEmpleado employerType)
         {
-            this.nombre = nombre;
-            this.impuesto = impuesto;
-            this.sueldo = sueldo;
+        this.Nombre = nombre;
+        this.Sueldo = sueldo;
+        this.EmployerType = employerType;
+
         }
     }
 }

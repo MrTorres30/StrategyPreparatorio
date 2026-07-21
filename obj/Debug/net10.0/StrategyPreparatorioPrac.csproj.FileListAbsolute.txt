@@ -13,3 +13,13 @@ C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\obj\Debug\n
 C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\obj\Debug\net10.0\StrategyPreparatorioPrac.pdb
 C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\obj\Debug\net10.0\StrategyPreparatorioPrac.genruntimeconfig.cache
 C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\obj\Debug\net10.0\ref\StrategyPreparatorioPrac.dll
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\bin\Debug\net10.0\ClosedXML.dll
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\bin\Debug\net10.0\ClosedXML.Parser.dll
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\bin\Debug\net10.0\DocumentFormat.OpenXml.dll
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\bin\Debug\net10.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\bin\Debug\net10.0\ExcelNumberFormat.dll
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\bin\Debug\net10.0\RBush.dll
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\bin\Debug\net10.0\SixLabors.Fonts.dll
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\bin\Debug\net10.0\System.IO.Packaging.dll
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\obj\Debug\net10.0\StrategyPreparatorioPrac.csproj.AssemblyReference.cache
+C:\Users\WILL\Downloads\PDo\Patron Strategy\StrategyPreparatorioPrac\obj\Debug\net10.0\Strategy.645F9197.Up2Date
