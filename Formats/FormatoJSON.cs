@@ -11,7 +11,7 @@ namespace StrategyPreparatorioPrac
                 var formato = new JsonSerializerOptions { WriteIndented = true };
                 string jsonString = JsonSerializer.Serialize(lista, formato);
                 File.WriteAllText(nombreArchivo, jsonString);
-                Console.WriteLine($"[✓] Archivo JSON exportado con éxito en: {nombreArchivo}");
+                Console.WriteLine($"Archivo JSON exportado con éxito en: {nombreArchivo}");
             }
             catch (Exception ex)
             {

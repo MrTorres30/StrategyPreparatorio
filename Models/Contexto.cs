@@ -2,7 +2,7 @@ namespace StrategyPreparatorioPrac
 {
     internal class Contexto
     {
-        public string Nombre {get; set;}
+        public string Nombre {get; set;} = String.Empty;
         public decimal Impuesto {get; set;}
         public decimal Sueldo {get; set;}   
 
