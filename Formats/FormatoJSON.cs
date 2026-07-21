@@ -1,4 +1,3 @@
-using System.Linq.Expressions;
 using System.Text.Json;
 
 namespace StrategyPreparatorioPrac
@@ -7,24 +6,16 @@ namespace StrategyPreparatorioPrac
     {
         public void Exportar(List<Contexto> lista, string nombreArchivo)
         {
-            var formato = new JsonSerializerOptions { WriteIndented = true };
-            string JsonString = JsonSerializer.Serialize(lista, formato);
-            File.WriteAllText("empleados.json", JsonString);
-        }
-         public List<Contexto> Cargar()
-        {
             try
             {
-                if (!File.Exists("empleados.json"))
-                    return new List<Contexto>();
-
-                string jsonString = File.ReadAllText("empleados.json");
-                return JsonSerializer.Deserialize<List<Contexto>>(jsonString) ?? new List<Contexto>();
+                var formato = new JsonSerializerOptions { WriteIndented = true };
+                string jsonString = JsonSerializer.Serialize(lista, formato);
+                File.WriteAllText(nombreArchivo, jsonString);
+                Console.WriteLine($"[✓] Archivo JSON exportado con éxito en: {nombreArchivo}");
             }
-           catch (Exception ex)
+            catch (Exception ex)
             {
-            System.Console.WriteLine("Error al crear el formato" + ex.Message);
-            return new List<Contexto>();
+                Console.WriteLine($"Error al exportar JSON: {ex.Message}");
             }
         }
     }
