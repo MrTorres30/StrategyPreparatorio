@@ -3,23 +3,25 @@ namespace StrategyPreparatorioPrac
 {
     internal class FormatoExcel : IExportador
     {
-        public void Exportar (List<Contexto> lista , string nombreArchivo)
+        
+        public void Exportar(List<Contexto> lista, string nombreArchivo)
         {
             try
             {
-                List<string> lineas = new List<string>();
-                
-                lineas.Add("Nombre;Tipo Empleado;Salario;Impuesto");
+                string encabezado = "Nombre,Tipo Empleado,Salario,Impuesto";
+                List<string> lineas = new List<string> { encabezado };
                 foreach (var emp in lista)
                 {
-                    lineas.Add($"{emp.Nombre};{emp.EmployerType};{emp.Sueldo};{emp.Impuesto}");
+                    lineas.Add($"{emp.Nombre},{emp.EmployerType},{emp.Sueldo},{emp.Impuesto}");
                 }
-                File.WriteAllLines(nombreArchivo, lineas);
-                Console.WriteLine($"Archivo Excel (CSV) creado con éxito: {nombreArchivo}");
+                string contenido = string.Join(Environment.NewLine, lineas);
+                System.Console.WriteLine("Guardando datos en Excel (CSV)...");
+                File.WriteAllText(nombreArchivo, contenido);
+                System.Console.WriteLine($"Archivo generado correctamente: {nombreArchivo}");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error al exportar xcel: {ex.Message}");
+                System.Console.WriteLine($"Error al exportar Excel: {ex.Message}");
             }
         }
     }
