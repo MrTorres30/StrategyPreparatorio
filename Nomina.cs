@@ -48,7 +48,7 @@ namespace StrategyPreparatorioPrac
 
                 listaempleados.Add(empleado);
 
-                System.Console.WriteLine($"\n[✓] Empleado añadido. Impuesto: ${empleado.Impuesto}\n");
+                System.Console.WriteLine($"\n Empleado añadido. Impuesto: ${empleado.Impuesto}\n");
                 Console.Write("Desea agregar otro empleado? (s/n): ");
                 string resp = (Console.ReadLine() ?? "").ToLower();
                 if (resp != "s")
